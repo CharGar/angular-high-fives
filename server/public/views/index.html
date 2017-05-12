@@ -10,6 +10,7 @@
   <script src="/scripts/client.js" type="text/javascript"></script>
   <link rel="stylesheet" href="styles/style.css"/>
   <script src='scripts/randomfile-service.js'></script>
+  <script src='scripts/rankingfile-service.js'></script>
 </head>
 <!-- start controller-->
 <body ng-app="myApp">
@@ -41,9 +42,9 @@
       <button ng-click='x.randomAqua()' type="button" name="button" class="btn btn-lg btn-success group">High Five</button>
     </div><!-- //end buttonRow -->
     <div class="container">
-      <div class="">Superman rank: <span>{{x.rankSuper}}</span> High Fives: <span>0</span></div>
-      <div class="">Batman rank: <span>{{x.rankBat}}</span> High Fives: <span>0</span></div>
-      <div class="">Aquaman rank: <span>{{x.rankAqua}}</span> High Fives: <span>0</span></div>
+      <div class="">Superman Skill: <span>{{x.rankSuper}}</span> High Five Quality: <span>{{x.super}}</span></div>
+      <div class="">Batman Skill: <span>{{x.rankBat}}</span> High Five Quality: <span>{{x.bat}}</span></div>
+      <div class="">Aquaman Skill: <span>{{x.rankAqua}}</span> High Five Quality: <span>{{x.aqua}}</span></div>
     </div>
   </div>  <!-- //end controller -->
 
