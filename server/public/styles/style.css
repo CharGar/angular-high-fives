@@ -1,0 +1,65 @@
+.jumbotron{
+  color: white;
+  text-align: center;
+  background-image: url('https://media0.giphy.com/media/T5MvalD01r2XS/giphy.gif');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: black;
+
+}
+body{
+  color: font-family: 'Shadows Into Light', cursive;
+}
+
+#pic{
+  height:300px;
+  width: auto;
+}
+
+.superman {
+    float: left;
+    width: auto;
+}
+
+
+.aquaman {
+margin-right: 35px;
+width: auto;
+}
+
+.batman {
+  text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+.hero{
+  width:100%;
+}
+.group{
+  width:500px;
+  display: inline-block;
+}
+img{
+  position: sticky;
+}
+
+.container{
+  font-size: 70px;
+  text-shadow: 2px 2px 2px darkblue;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  display: block;
+}
+span{
+  color: red;
+}
+
+p{
+  font-family: 'Shadows Into Light', cursive;
+}
+
+button{
+  margin-top: 5px;
+  padding-left: 50px;
+}
